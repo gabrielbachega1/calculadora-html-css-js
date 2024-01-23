@@ -21,7 +21,7 @@ class Calculator {
     this.updateScreen();
   }
 
-  // process all calculator operations
+  //process all calculator operations
   processOperation(operation) {
     // Check if current value is empty
     if (this.currentOperationText.innerText === "" && operation !== "C") {
